@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Chiba Staycation</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Chiba Staycation</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Rooms</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#other" class="nav__link">Location</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Welcome to Our Guest House 🏡✨</h1>
+                <p>Looking for a cozy and relaxing place to stay?</p>
+                <p>Our Guest House offers a warm and inviting atmosphere.</p>
+                <a href="#" class="button">Book Now</a>
+            </div>
+
+            <div class="home__social">
+                <a href="unknown@gmail.com" class="home__social-icon"><i class='fas fa-envelope'></i></a>
+                <a href="facebook.com/" class="home__social-icon"><i class='fab fa-facebook'></i></a>
+                <a href="line.com/" class="home__social-icon"><i class='fab fa-line'></i></a>
+                <a href="https://www.airbnb.com/yourlink" class="home__social-icon"><i class='fas fa-hotel'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="home.jpg" alt="Guest House" style="width: 500px; height: 300px;">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="https://images.unsplash.com/photo-1532048698638-7a6a287b5333" alt="Room">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">Rooms</h2>
+                    <p>✅ Comfortable, stylish rooms<br>
+                        ✅ Free Wi-Fi and workspace areas<br>
+                        ✅ Close to major attractions<br>
+                        ✅ Friendly, welcoming environment<br>
+                        Whether you're here for business or leisure, our guest house provides everything you need for a pleasant stay.<br>
+                        📍 <strong>Location:</strong> [Your Location Here]<br>
+                        📅 <strong>Book Now:</strong> [Your Booking Link]
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SERVICES =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Services</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Our Services 🛎️</h2>
+                    <h3>🏠 Accommodation</h3>
+                    <ul>
+                        <li>Comfortable, well-furnished rooms</li>
+                        <li>Air conditioning & heating</li>
+                        <li>Daily housekeeping service</li>
+                    </ul>
+                    <h3>🚗 Travel & Convenience</h3>
+                    <ul>
+                        <li>Airport pick-up & drop-off (on request)</li>
+                        <li>Car rental & tour booking assistance</li>
+                        <li>Free parking for guests</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="Service" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+       <!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<style>
+    .contact__options {
+        display: flex;
+        justify-content: center;
+        gap: 30px; /* Space between items */
+        margin-top: 20px;
+        flex-wrap: wrap; /* Ensures responsiveness */
+    }
+
+    .contact__option {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Space between icon and text */
+        font-size: 1.5rem; /* Bigger font size */
+        text-decoration: none;
+        color: #333; /* Adjust color as needed */
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .contact__option i {
+        font-size: 2rem; /* Bigger icon size */
+    }
+
+    .contact__option:hover {
+        color: #007bff; /* Change color on hover */
+    }
+</style>
+
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+        <div class="contact__options">
+            <a href="mailto:your-email@example.com" class="contact__option">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank" class="contact__option">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://line.me/ti/p/~yourlineid" target="_blank" class="contact__option">
+                <i class="fab fa-line"></i> Line
+            </a>
+            <a href="https://www.airbnb.com/yourlink" target="_blank" class="contact__option">
+                <i class="fas fa-hotel"></i> Airbnb
+            </a>
+        </div>
+    </div>
+</section>
+
+
+        <!--===== LOCATION MAP =====-->
+        <div class="container">
+            <h2 class="section-title">📍Location</h2>
+            <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+              <div style="text-decoration: none; overflow: hidden; max-width: 100%; width: 700px; height: 450px;">
+                <div id="embed-map-display" style="height: 100%; width: 100%; max-width: 100%;">
+                  <iframe
+                    style="height: 100%; width: 100%; border: 0; border-radius: 10px;"
+                    frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/search?q=tokyo&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__copy">&#169; 2025 Chiba Staycation. All rights reserved</p>
+    </footer>
+</body>
+</html>
